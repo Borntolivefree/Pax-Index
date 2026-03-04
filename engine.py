@@ -1,40 +1,60 @@
-class SovereigntyScorer:
+class PaxSovereigntyEngine:
     def __init__(self):
-        # Pesos de risco para a soberania do utilizador
-        self.risk_factors = {
-            "excessive_telemetry": 0.4,
-            "biometric_capture": 0.3,
-            "unauthorized_sync": 0.2,
-            "forced_cloud_dependency": 0.1
+        # Base de Dados Ética: Empresas e seus vínculos de capital
+        self.registry = {
+            "lockheed": {
+                "name": "Lockheed Martin",
+                "class": "RED",
+                "reason": "Complexo Industrial-Militar: Armamento Ofensivo.",
+                "alt": "Projetos Aeroespaciais Civis"
+            },
+            "palantir": {
+                "name": "Palantir Technologies",
+                "class": "YELLOW",
+                "reason": "Defesa de Fronteiras e Inteligência Civil.",
+                "alt": "Protocolos de Dados Open Source"
+            },
+            "fairphone": {
+                "name": "Fairphone",
+                "class": "GREEN",
+                "reason": "Soberania do Utilizador e Cadeia de Valor Ética.",
+                "alt": None
+            }
         }
 
-    def calculate_impact(self, system_logs):
+    def evaluate_transaction(self, entity_id):
         """
-        Analisa logs do sistema para determinar o nível de invasão.
+        Avalia o destino do capital e define o multiplicador de Cashback.
+        RED: 0% | YELLOW: 40% | GREEN: 80%
         """
-        impact_score = 0
-        found_risks = []
+        entity = entity_id.lower()
+        data = self.registry.get(entity, {"class": "RED", "reason": "Entidade Desconhecida/Sem Auditoria Ética.", "alt": "Alternativas Independentes"})
 
-        for risk, weight in self.risk_factors.items():
-            if system_logs.get(risk):
-                impact_score += weight * 100
-                found_risks.append(risk)
+        classification = data["class"]
+        
+        if classification == "RED":
+            multiplier = 0.0
+            status_msg = f"🔴 BLOQUEADO: O capital para {data['name']} financia agressão bélica."
+        elif classification == "YELLOW":
+            multiplier = 0.5 # 50% do Cashback base (40% total)
+            status_msg = f"🟡 AVISO: {data['name']} atua em Defesa Civil/Fronteiras. Uso limitado."
+        else:
+            multiplier = 1.0 # 100% do Cashback base (80% total)
+            status_msg = f"🟢 GREEN: {data['name']} é compatível com a Soberania e a Paz."
 
-        # O índice de Sintonia é o inverso do impacto de risco
-        sintonia_index = max(0, 100 - impact_score)
-        return sintonia_index, found_risks
+        return {
+            "status": status_msg,
+            "multiplier": multiplier,
+            "suggestion": data.get("alt")
+        }
 
-# Exemplo de uso
+# Simulação de interface da DApp
 if __name__ == "__main__":
-    # Simulação de um log de sistema invasivo
-    current_logs = {
-        "excessive_telemetry": True,
-        "forced_cloud_dependency": True,
-        "biometric_capture": False
-    }
+    pax = PaxSovereigntyEngine()
+    
+    # Teste de um cenário de compra
+    result = pax.evaluate_transaction("lockheed")
+    print(result["status"])
+    print(f"Sugestão de Desvio: {result['suggestion']}")
+    print(f"Multiplicador de Recompensa: {result['multiplier'] * 100}%")
 
-    scorer = SovereigntyScorer()
-    score, risks = scorer.calculate_impact(current_logs)
-
-    print(f"🛡️ Índice de Sintonia: {score}/100")
-    print(f"⚠️ Riscos detetados: {', '.join(risks)}")
