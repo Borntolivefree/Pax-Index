@@ -1,0 +1,7 @@
+# Privacidade e Segurança
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+dist/
+build/
