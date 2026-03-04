@@ -1,4 +1,21 @@
+---# 🛡️ Pax-Index: A Saída de Emergência Digital
+
+> **ESTADO DO MUNDO (Março 2026):** Enquanto as IAs centralizadas se tornam ferramentas de vigilância e as gigantes de hardware impõem termos de "aceitação forçada", o Pax-Index nasce como um protocolo de resistência.
+
+## 🍌 Por que agora?
+Recentemente, o mundo assistiu a:
+* **A Traição da OpenAI:** O desvio ético para fins não-civis, provocando o maior êxodo de utilizadores da história.
+* **A "Coleira" de Hardware:** Fabricantes globais (como a Samsung) a forçar políticas de privacidade que eliminam a soberania do utilizador.
+
+## 🚀 A Nossa Resposta
+O Pax-Index não é apenas uma ideia; é uma infraestrutura técnica:
+* **[Sintonia]** - Motor Python que calcula o impacto ético real de cada transação.
+* **[PaxCashback]** - Smart Contract (Solidity) que garante 80% de retorno ao utilizador.
+* **[Soberania]** - Código aberto, auditável e imutável.
+
 ---
+*(O teu Manifesto Original continua aqui em baixo...)*
+
 title: Pax-Index 🛡️
 status: Initial Genesis
 tags: [sovereignty, open-finance, privacy-tech, mesh-networks, ethical-consumption, p2p, anti-war, decentralization]
