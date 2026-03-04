@@ -1,3 +1,13 @@
+​🚀 Mensagem de Boas-Vindas aos Colaboradores
+​"Bem-vindo ao Pax-Index. Se estás aqui, é porque percebeste que o código é a única linguagem que o sistema não pode silenciar."
+​Este projeto não é apenas uma app de cashback. É um protocolo de resistência financeira. Estamos a construir uma ferramenta que permite a qualquer ser humano votar com o seu dinheiro, em tempo real, contra a aniquilação e a favor da vida.
+​O que precisamos agora:
+​Data Miners: Para alimentar o Index com APIs de transparência global.
+​Security Experts: Para garantir que a nossa rede Mesh é impenetrável.
+​UX Dreamers: Para tornar a soberania algo tão simples como descascar uma banana.
+​O código é aberto. A missão é urgente. A recompensa é a liberdade.
+​Assinado: Borntolivefree 🛡️🍌
+
 # Projeto Sintonia 🛡️🍌
 ### O Protocolo de Aniquilação do Sistema Predatório
 
