@@ -1,72 +1,32 @@
----# 🛡️ Pax-Index: A Saída de Emergência Digital
+# 🍌 Pax-Index: O Algoritmo da Soberania e da Paz
 
-> **ESTADO DO MUNDO (Março 2026):** Enquanto as IAs centralizadas se tornam ferramentas de vigilância e as gigantes de hardware impõem termos de "aceitação forçada", o Pax-Index nasce como um protocolo de resistência.
+O **Pax-Index** é um ecossistema descentralizado desenhado para devolver o poder económico ao cidadão, enquanto asfixia financeiramente o complexo industrial-militar. Através de uma DApp simples, transformamos o consumo numa ferramenta de paz.
 
-## 🍌 Por que agora?
-Recentemente, o mundo assistiu a:
-* **A Traição da Provedores de Inteligência Centralizada* O desvio ético para fins não-civis, provocando o maior êxodo de utilizadores da história.
-* **A "Coleira" de Hardware:** Fabricantes de hardware com políticas de dados opacas a forçar políticas de privacidade que eliminam a soberania do utilizador.
-![License](https://img.shields.io/github/license/Borntolivefree/Pax-Index?color=yellow)
-![Status](https://img.shields.io/badge/Status-In_Development-orange)
-![Web3](https://img.shields.io/badge/Web3-Solidity-blue)
+## 🛡️ A Visão: "A Banana na Mão"
+Não precisas de ser um especialista em geopolítica para mudar o mundo. O Pax-Index analisa por ti. Se a nossa "Banana" brilha a **Verde**, o teu dinheiro está seguro e a apoiar a soberania civil. Se brilha a **Vermelho**, estás a alimentar a guerra.
 
-## 🚀 A Nossa Resposta
-O Pax-Index não é apenas uma ideia; é uma infraestrutura técnica:
-* **[Sintonia]** - Motor Python que calcula o impacto ético real de cada transação.
-* **[PaxCashback]** - Smart Contract (Solidity) que garante 80% de retorno ao utilizador.
-* **[Soberania]** - Código aberto, auditável e imutável.
+## ⚙️ Como Funciona (O Motor Ético)
+O projeto utiliza um motor de análise em Python (`engine.py`) que cruza dados de empresas e os seus acionistas maioritários (como fundos de investimento globais) para classificar cada transação em três níveis:
+
+* **🟢 GREEN (Soberania Civil):** Empresas 100% focadas no setor civil e ética digital.
+    * **Recompensa:** 80% de Cashback Ético.
+* **🟡 YELLOW (Defesa Civil/Fronteiras):** Tecnologias de proteção nacional e segurança de infraestruturas.
+    * **Recompensa:** 40% de Cashback Ético.
+* **🔴 RED (Economia de Guerra):** Empresas ligadas a armamento ofensivo e contratos de agressão.
+    * **Recompensa:** 0% (Capital bloqueado ou redirecionado para regeneração).
+
+## 💰 Viabilidade Económica
+O Pax-Index não cria dinheiro do nada. Nós **reciclamos o capital**. 
+Ao eliminar intermediários, taxas de vigilância e orçamentos de marketing das Big Techs, redirecionamos esse valor diretamente para o Smart Contract (`PaxCashback.sol`), que devolve a "fatia da paz" ao utilizador.
+
+## 🚀 Estrutura do Repositório
+* `engine.py`: O cérebro que diferencia Guerra de Defesa Civil.
+* `PaxCashback.sol`: O contrato inteligente que automatiza os pagamentos (0/40/80).
+* `SECURITY.md`: A nossa política contra hacks e auditoria de erros de IA.
+* `WHITEPAPER.md`: A base filosófica e técnica do projeto.
+
+## 🤝 Contribui
+Este é um projeto **Open Source**. Se és programador, ajuda-nos a auditar os algoritmos. Se és ativista, ajuda-nos a mapear empresas.
 
 ---
-*(O teu Manifesto Original continua aqui em baixo...)*
-
-title: Pax-Index 🛡️
-status: Initial Genesis
-tags: [sovereignty, open-finance, privacy-tech, mesh-networks, ethical-consumption, p2p, anti-war, decentralization]
-engine: Sintonia-v1.0
----
-
-# 🛡️ Pax-Index: O Protocolo de Aniquilação
-
-> **"Não estamos a tentar consertar o sistema. Estamos a mudar de canal."**
-
-​🚀 Mensagem de Boas-Vindas aos Colaboradores
-​"Bem-vindo ao Pax-Index. Se estás aqui, é porque percebeste que o código é a única linguagem que o sistema não pode silenciar."
-​Este projeto não é apenas uma app de cashback. É um protocolo de resistência financeira. Estamos a construir uma ferramenta que permite a qualquer ser humano votar com o seu dinheiro, em tempo real, contra a aniquilação e a favor da vida.
-​O que precisamos agora:
-​Data Miners: Para alimentar o Index com APIs de transparência global.
-​Security Experts: Para garantir que a nossa rede Mesh é impenetrável.
-​UX Dreamers: Para tornar a soberania algo tão simples como descascar uma banana.
-​O código é aberto. A missão é urgente. A recompensa é a liberdade.
-​Assinado: Borntolivefree 🛡️🍌
-
-# Projeto Sintonia 🛡️🍌
-### O Protocolo de Aniquilação do Sistema Predatório
-
-Sintonia é a primeira DApp (Decentralized App) do mundo desenhada para mapear o "Sangue Invisível" da economia global e devolver a soberania ao utilizador.
-
-**A Nossa Missão:**
-1. **Identificar:** Mapear empresas que financiam guerra e pobreza (O Index de Aniquilação).
-2. **Desviar:** Redirecionar o consumo para economias Verdes e Soberanas.
-3. ## 🗺️ Roadmap 2026
-
-### Q2: Fundação e Conetividade (Fase Atual)
-* [x] Manifesto e Whitepaper (v1.0).
-* [x] Lançamento do Motor de Sintonia (`SovereigntyScorer`).
-* [ ] Desenvolvimento de conectores para APIs de Logs de Sistema (Android/Linux).
-* [ ] Auditoria comunitária do Smart Contract `PaxCashback`.
-
-### Q3: Ecossistema e Prova de Conceito
-* [ ] Lançamento da Web-App para monitorização de Score em tempo real.
-* [ ] Integração com carteiras Web3 (Metamask/Rabby).
-* [ ] Parcerias com projetos de hardware focado em privacidade (ex: PinePhone, Framework).
-
-### Q4: Governação Descentralizada (DAO)
-* [ ] Lançamento do Token de Governação PAX.
-* [ ] Sistema de votação para novos fatores de risco ético.
-* [ ] Expansão para o mercado B2B (Certificação de Ética para Apps).
-
-4. **Recapitalizar:** Devolver 80% do lucro da plataforma diretamente ao bolso do utilizador.
-
-> "Não estamos a tentar consertar o sistema. Estamos a mudar de canal."
-
-## Estado Atual: V1 Alpha - Engine de Cálculo Ético
+**"Manteve a tua privacidade. Manteve a tua soberania. Manteve a Paz."** 🍌🛡️
