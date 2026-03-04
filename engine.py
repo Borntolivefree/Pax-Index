@@ -1,23 +1,40 @@
-# Pax-Index Engine v1.0 - Sintonia
-# Algoritmo de Cálculo de Soberania Ética
+class SovereigntyScorer:
+    def __init__(self):
+        # Pesos de risco para a soberania do utilizador
+        self.risk_factors = {
+            "excessive_telemetry": 0.4,
+            "biometric_capture": 0.3,
+            "unauthorized_sync": 0.2,
+            "forced_cloud_dependency": 0.1
+        }
 
-def calcular_pax_index(transacao):
-    """
-    Calcula o índice de impacto de uma transação.
-    Retorna uma pontuação de 0 (Aniquilação) a 100 (Soberania).
-    """
-    score_base = 100
-    
-    # Critérios de exclusão (Indústria de Guerra/Exploração)
-    if transacao['setor'] == 'armamento':
-        score_base -= 80
-    elif transacao['setor'] == 'extrativismo_conflito':
-        score_base -= 50
-        
-    # Critérios de bonificação (Economia de Vida)
-    if transacao['etica'] == True:
-        score_base += 20
-        
-    return min(score_base, 100)
+    def calculate_impact(self, system_logs):
+        """
+        Analisa logs do sistema para determinar o nível de invasão.
+        """
+        impact_score = 0
+        found_risks = []
 
-print("Sistema Pax-Index: Motor de Sintonia Ativo.")
+        for risk, weight in self.risk_factors.items():
+            if system_logs.get(risk):
+                impact_score += weight * 100
+                found_risks.append(risk)
+
+        # O índice de Sintonia é o inverso do impacto de risco
+        sintonia_index = max(0, 100 - impact_score)
+        return sintonia_index, found_risks
+
+# Exemplo de uso
+if __name__ == "__main__":
+    # Simulação de um log de sistema invasivo
+    current_logs = {
+        "excessive_telemetry": True,
+        "forced_cloud_dependency": True,
+        "biometric_capture": False
+    }
+
+    scorer = SovereigntyScorer()
+    score, risks = scorer.calculate_impact(current_logs)
+
+    print(f"🛡️ Índice de Sintonia: {score}/100")
+    print(f"⚠️ Riscos detetados: {', '.join(risks)}")
