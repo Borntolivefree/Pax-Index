@@ -1,3 +1,14 @@
+---
+title: Pax-Index 🛡️
+status: Initial Genesis
+tags: [sovereignty, open-finance, privacy-tech, mesh-networks, ethical-consumption, p2p, anti-war, decentralization]
+engine: Sintonia-v1.0
+---
+
+# 🛡️ Pax-Index: O Protocolo de Aniquilação
+
+> **"Não estamos a tentar consertar o sistema. Estamos a mudar de canal."**
+
 ​🚀 Mensagem de Boas-Vindas aos Colaboradores
 ​"Bem-vindo ao Pax-Index. Se estás aqui, é porque percebeste que o código é a única linguagem que o sistema não pode silenciar."
 ​Este projeto não é apenas uma app de cashback. É um protocolo de resistência financeira. Estamos a construir uma ferramenta que permite a qualquer ser humano votar com o seu dinheiro, em tempo real, contra a aniquilação e a favor da vida.
