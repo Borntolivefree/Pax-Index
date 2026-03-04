@@ -6,6 +6,9 @@
 Recentemente, o mundo assistiu a:
 * **A Traição da Provedores de Inteligência Centralizada* O desvio ético para fins não-civis, provocando o maior êxodo de utilizadores da história.
 * **A "Coleira" de Hardware:** Fabricantes de hardware com políticas de dados opacas a forçar políticas de privacidade que eliminam a soberania do utilizador.
+![License](https://img.shields.io/github/license/Borntolivefree/Pax-Index?color=yellow)
+![Status](https://img.shields.io/badge/Status-In_Development-orange)
+![Web3](https://img.shields.io/badge/Web3-Solidity-blue)
 
 ## 🚀 A Nossa Resposta
 O Pax-Index não é apenas uma ideia; é uma infraestrutura técnica:
