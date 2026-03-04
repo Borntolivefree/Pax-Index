@@ -4,8 +4,8 @@
 
 ## 🍌 Por que agora?
 Recentemente, o mundo assistiu a:
-* **A Traição da OpenAI:** O desvio ético para fins não-civis, provocando o maior êxodo de utilizadores da história.
-* **A "Coleira" de Hardware:** Fabricantes globais (como a Samsung) a forçar políticas de privacidade que eliminam a soberania do utilizador.
+* **A Traição da Provedores de Inteligência Centralizada* O desvio ético para fins não-civis, provocando o maior êxodo de utilizadores da história.
+* **A "Coleira" de Hardware:** Fabricantes de hardware com políticas de dados opacas a forçar políticas de privacidade que eliminam a soberania do utilizador.
 
 ## 🚀 A Nossa Resposta
 O Pax-Index não é apenas uma ideia; é uma infraestrutura técnica:
