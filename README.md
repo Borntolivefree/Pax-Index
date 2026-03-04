@@ -47,7 +47,25 @@ Sintonia é a primeira DApp (Decentralized App) do mundo desenhada para mapear o
 **A Nossa Missão:**
 1. **Identificar:** Mapear empresas que financiam guerra e pobreza (O Index de Aniquilação).
 2. **Desviar:** Redirecionar o consumo para economias Verdes e Soberanas.
-3. **Recapitalizar:** Devolver 80% do lucro da plataforma diretamente ao bolso do utilizador.
+3. ## 🗺️ Roadmap 2026
+
+### Q2: Fundação e Conetividade (Fase Atual)
+* [x] Manifesto e Whitepaper (v1.0).
+* [x] Lançamento do Motor de Sintonia (`SovereigntyScorer`).
+* [ ] Desenvolvimento de conectores para APIs de Logs de Sistema (Android/Linux).
+* [ ] Auditoria comunitária do Smart Contract `PaxCashback`.
+
+### Q3: Ecossistema e Prova de Conceito
+* [ ] Lançamento da Web-App para monitorização de Score em tempo real.
+* [ ] Integração com carteiras Web3 (Metamask/Rabby).
+* [ ] Parcerias com projetos de hardware focado em privacidade (ex: PinePhone, Framework).
+
+### Q4: Governação Descentralizada (DAO)
+* [ ] Lançamento do Token de Governação PAX.
+* [ ] Sistema de votação para novos fatores de risco ético.
+* [ ] Expansão para o mercado B2B (Certificação de Ética para Apps).
+
+4. **Recapitalizar:** Devolver 80% do lucro da plataforma diretamente ao bolso do utilizador.
 
 > "Não estamos a tentar consertar o sistema. Estamos a mudar de canal."
 
